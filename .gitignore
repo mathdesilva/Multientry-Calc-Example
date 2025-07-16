@@ -1,2 +1,7 @@
 .venv/
 .venv
+
+# Python build outputs
+dist/
+build/
+*.egg-info/
