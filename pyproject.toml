@@ -25,6 +25,7 @@ all = [
 
 [project.scripts]
 multicalc = "multicalc.cli:app"
+multicalc-serve = "multicalc.api:start"
 
 [build-system]
 requires = ["hatchling"]
