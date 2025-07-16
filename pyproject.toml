@@ -9,6 +9,9 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 dependencies = [
+    "typer[all]>=0.9",
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29"
 ]
 
 keywords = ["calculator", "cli", "api", "fastapi", "typer", "example", "modular", "python"]
