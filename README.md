@@ -59,10 +59,10 @@ Import and use the core calculator in Python:
 from multicalc import Calculator
 
 calc = Calculator()
-print(calc.add(2, 3))        # 5
-print(calc.subtract(5, 2))   # 3
-print(calc.multiply(4, 6))   # 24
-print(calc.divide(8, 2))     # 4.0
+print(calc.add(2, 3))        
+print(calc.subtract(5, 2))   
+print(calc.multiply(4, 6))  
+print(calc.divide(8, 2)) 
 ```
 
 ---
