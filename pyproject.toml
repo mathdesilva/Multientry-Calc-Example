@@ -1,6 +1,6 @@
 [project]
 name = "multicalc"
-version = "1.0.1"
+version = "1.0.0"
 description = "A modular Python calculator with reusable core logic, CLI, REST API, and import — demonstrating a multi-entry architecture."
 authors = [
     { name = "Matheus de Andrade", email = "matheusdeandradesv@gmail.com" }
