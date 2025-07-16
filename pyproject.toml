@@ -1,0 +1,31 @@
+[project]
+name = "multicalc"
+version = "1.0.0"
+description = "A modular Python calculator with reusable core logic, CLI, REST API, and import — demonstrating a multi-entry architecture."
+authors = [
+    { name = "Matheus de Andrade" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+]
+
+[project.optional-dependencies]
+cli = [
+    "typer[all]>=0.9"
+]
+api = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.29"
+]
+all = [
+    "multicalc[cli,api]"
+]
+
+[project.scripts]
+multicalc = "multicalc.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
