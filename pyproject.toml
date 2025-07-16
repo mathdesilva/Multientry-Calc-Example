@@ -3,12 +3,22 @@ name = "multicalc"
 version = "1.0.0"
 description = "A modular Python calculator with reusable core logic, CLI, REST API, and import — demonstrating a multi-entry architecture."
 authors = [
-    { name = "Matheus de Andrade" }
+    { name = "Matheus de Andrade", email = "matheusdeandradesv@gmail.com" }
 ]
 readme = "README.md"
 requires-python = ">=3.8"
 license = { text = "MIT" }
 dependencies = [
+]
+
+keywords = ["calculator", "cli", "api", "fastapi", "typer", "example", "modular", "python"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
 ]
 
 [project.optional-dependencies]

@@ -1,0 +1,4 @@
+include README.md
+include pyproject.toml
+recursive-include multicalc *.py
+recursive-include examples *.py
