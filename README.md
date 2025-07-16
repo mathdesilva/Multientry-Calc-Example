@@ -65,6 +65,8 @@ print(calc.multiply(4, 6))
 print(calc.divide(8, 2)) 
 ```
 
+See also the example script in `examples/usage.py` for more details.
+
 ---
 This project is for demonstration and educational purposes only.
 
