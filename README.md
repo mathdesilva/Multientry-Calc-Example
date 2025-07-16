@@ -5,22 +5,22 @@ An example project of modular Python architecture, featuring a reusable core and
 
 ## Installation
 
-Install the core library:
+Install the full library (Including CLI and REST API) (Recommended):
 
 ```bash
-pip install .
+pip install multicalc
 ```
 
 Install with CLI support:
 
 ```bash
-pip install .[cli]
+pip install multicalc[cli]
 ```
 
 Install with REST API support:
 
 ```bash
-pip install .[api]
+pip install multicalc[api]
 ```
 
 ## Usage via CLI
